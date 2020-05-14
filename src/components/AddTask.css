@@ -1,0 +1,126 @@
+/* font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Handlee', cursive; */
+
+.form {
+  position: relative;
+  /* background-color: green; */
+  margin: 10px 10%;
+  text-align: left;
+}
+
+.form input {
+  margin: 10px;
+  padding: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+
+}
+
+.form input[type="text"] {
+  width: 285px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.form input[type="text"]::placeholder {
+  font-size: 16px;
+  padding-left: 5px;
+  letter-spacing: 1px;
+}
+
+.form input[type="date"] {
+  width: 150px
+}
+
+.form label.date {
+  margin-left: 10px;
+}
+
+.form button {
+  margin: 30px 10px 10px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 3px 20px;
+}
+
+button {
+  position: relative;
+  padding: 3px 15px;
+  margin-left: 10px;
+  background-color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: black;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+  cursor: pointer;
+  transition: .3s;
+  outline: none;
+  overflow: hidden;
+  z-index: 2
+}
+
+button::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: #222;
+  background-color: brown;
+  transition: .3s;
+}
+
+button:hover::after {
+  height: 100%;
+  z-index: -1;
+}
+
+button:hover {
+  color: white;
+  border-color: white;
+
+}
+
+.form span {
+  color: red;
+  font-size: 16px;
+}
+
+.form input[type="checkbox"] {
+  /* box-sizing: border-box;
+  margin: 0;
+  outline: none; */
+  display: none;
+}
+
+input[type=checkbox]+label {
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding-left: 30px;
+  margin: 10px;
+
+}
+
+input[type=checkbox]+label::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  top: 2px;
+  left: 0px;
+  cursor: pointer;
+  transition: all .1s linear;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 5px;
+
+}
+
+input[type=checkbox]:checked+label::before {
+  background-color: red;
+}

@@ -1,0 +1,14 @@
+label span {
+  font-weight: bold;
+}
+
+label select {
+  margin: 10px;
+  background-color: rgba(73, 13, 13, 0.8);
+  color: white;
+  padding: 5px;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: 1px;
+  font-size: 16px;
+  outline: none
+}

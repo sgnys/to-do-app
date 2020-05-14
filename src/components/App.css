@@ -1,0 +1,20 @@
+/* font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Handlee', cursive; */
+
+.App {
+  text-align: center;
+  margin: 40px 20%;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  /* font-family: 'Handlee', cursive; */
+  background-color: #FFD829;
+  /* background-color: #4ae837fa; */
+  box-shadow: 0 0 0px 2px white
+}
+
+.App h1 {
+  padding-top: 20px;
+  letter-spacing: 2px;
+  word-spacing: 10px;
+}

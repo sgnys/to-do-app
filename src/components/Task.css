@@ -1,0 +1,45 @@
+/* .task button.done::after {
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+}
+
+.task button.done:hover::after {
+  width: 100%;
+}
+
+.task button.delete::after {
+  top: 0;
+  left: 100%;
+  width: 0;
+  height: 100%;
+
+}
+
+.task button.delete:hover::after {
+  left: 0;
+  width: 100%;
+
+} */
+
+.task button.finish::after {
+  top: 0;
+  left: 50%;
+  width: 0;
+  height: 100%;
+}
+
+
+.task button.finish:hover::after {
+  left: 0;
+  width: 100%;
+}
+
+.task p {
+  transition: .2s
+}
+
+.task p:hover {
+  margin-right: 15px;
+}
